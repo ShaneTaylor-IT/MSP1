@@ -1,0 +1,27 @@
+/* Fonts import */
+
+
+:root {
+    /* colors to use
+    #e73118 - red
+    #00478a - blue
+    #cc5f11 - orange
+    #f2aa25 - light orange
+    #fff5e3 - light yellow
+    #090808 - black
+    */
+    --primary-font: ;
+    --secondary-font: ;
+    --primary-color: ;
+    --secondary-color: ;
+    --primary-highlight-color: ;
+    --secondary-highlight-color: ;
+
+}
+
+
+#navbar .logo {
+    height: 55px;
+    width: 90px;
+    border-radius: 50%;
+}
