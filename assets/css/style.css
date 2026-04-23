@@ -5,6 +5,7 @@
     /* colors to use
     #e73118 - red
     #00478a - blue
+    #67bed9 - light blue
     #cc5f11 - orange
     #f2aa25 - light orange
     #fff5e3 - light yellow
@@ -24,4 +25,9 @@
     height: 55px;
     width: 90px;
     border-radius: 50%;
+}
+
+#navbar {
+    background-color:#67bed9;
+    
 }
