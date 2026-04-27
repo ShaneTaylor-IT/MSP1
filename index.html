@@ -62,7 +62,7 @@
 
 
     <!-- Header section -->
-    <header id="header" class="container" style="padding-top: 6rem;">
+    <header id="header" class="container" style="padding-top: 6rem;"> <!-- Temp styling, remove later -->
         <div class="row">
             <div class="col-12 text-center mb-5">
                 <h1>Welcome to Fullys Fresh Food!</h1>
@@ -72,13 +72,14 @@
                     alt="Head chef and owner of Fullys Fresh Food pointing to freshly prepard food on a plate">
             </div>
             <div class="col-12 col-md-8 mb-4">
-                
+                <h2> About us </h2>
+                <br>
                 <p> At Fullys Fresh Food, it’s all about good food and friendly faces. What started as a small,
                     family-run business has grown over time, expanding while still holding onto the same values it was
-                    built on. 
+                    built on.
                     With a real passion for quality produce, the shop brings together fresh, high-quality
                     meats with a tasty range of deli favourites and homemade options.
-                    
+
                     Proud to be part of the Middlesbrough community, Fullys Fresh Food continues to grow while keeping
                     that personal, local touch—where customers are always welcomed, served with a smile, and can count
                     on great food they can trust every time.
@@ -100,7 +101,7 @@
                     <div class="card" style="width: 18rem;">
                         <img src="..." class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h5 class="card-title">Hot and cold foods</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
                                 of the card’s content.</p>
                             <a href="#" class="btn btn-primary">Go somewhere</a>
@@ -111,7 +112,7 @@
                     <div class="card" style="width: 18rem;">
                         <img src="..." class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h5 class="card-title">Hot and cold drinks</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
                                 of the card’s content.</p>
                             <a href="#" class="btn btn-primary">Go somewhere</a>
@@ -122,7 +123,7 @@
                     <div class="card" style="width: 18rem;">
                         <img src="..." class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h5 class="card-title">freshly baked goods</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
                                 of the card’s content.</p>
                             <a href="#" class="btn btn-primary">Go somewhere</a>
@@ -133,7 +134,7 @@
                     <div class="card" style="width: 18rem;">
                         <img src="..." class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h5 class="card-title">Event catering</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
                                 of the card’s content.</p>
                             <a href="#" class="btn btn-primary">Go somewhere</a>
@@ -147,15 +148,72 @@
         <section class="container">
             <div class="row">
                 <div class="col-12">New Sunday roast section heading</div>
-                <div class="col-12">Placeholder for video<video src=""></video></div>
+                <div class="col-12"><video src="assets/images/place_holder_video_test.mp4" controls muted></video></div>
             </div>
         </section>
 
         <!-- Testimonials -->
         <section class="container">
             <div class="row">
-                <div class="col-12">Testimonials section heading</div>
-                <div class="col-12">Placeholder for testimonials</div>
+                <div class="col-12">
+                    <h3>See what others are saying about us!</h3>
+                </div>
+                <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div><!-- star rating --></div>>
+                            <div>
+                                <p>Testimonial text</p>
+                                <h5>Customer name</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item active">
+                            <div><!-- star rating --></div>>
+                            <div>
+                                <p>Testimonial text</p>
+                                <h5>Customer name</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item active">
+                            <div><!-- star rating --></div>>
+                            <div>
+                                <p>Testimonial text</p>
+                                <h5>Customer name</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item active">
+                            <div><!-- star rating --></div>>
+                            <div>
+                                <p>Testimonial text</p>
+                                <h5>Customer name</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item active">
+                            <div><!-- star rating --></div>>
+                            <div>
+                                <p>Testimonial text</p>
+                                <h5>Customer name</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item active">
+                            <div><!-- star rating --></div>>
+                            <div>
+                                <p>Testimonial text</p>
+                                <h5>Customer name</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
             </div>
         </section>
 
@@ -169,7 +227,40 @@
                 <!-- Contact info -->
                 <div class="col-12 col-md-6 col-xl-4">Contact info & social links</div>
                 <!-- Opening times -->
-                <div class="col-12 col-md-6 col-xl-4">Opening times</div>
+                <div class="col-12 col-md-6 col-xl-4">
+                    <div class="row">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">First</th>
+                                    <th scope="col">Last</th>
+                                    <th scope="col">Handle</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>Mark</td>
+                                    <td>Otto</td>
+                                    <td>@mdo</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td>Jacob</td>
+                                    <td>Thornton</td>
+                                    <td>@fat</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td>John</td>
+                                    <td>Doe</td>
+                                    <td>@social</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
             </div>
         </div>
     </footer>
