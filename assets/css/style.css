@@ -8,7 +8,7 @@
     #67bed9 - light blue
     #cc5f11 - orange
     #f2aa25 - light orange
-    #fff5e3 - light yellow
+    #fff5e3 - light cream
     #090808 - black
     */
     --primary-font: ;
@@ -19,7 +19,9 @@
     --secondary-highlight-color: ;
 
 }
-
+body {
+    background-color: #fff5e3;
+}
 
 #navbar .logo {
     height: 55px;
@@ -29,6 +31,18 @@
 
 /* Temp navbar styling, remove later */
 #navbar, #footer {
-    background-color:#67bed9;
+    background-color:#53adc8;
 
+}
+
+#header {
+    background-image: url(../images/Sandwich-to-eat-in.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.about {
+    background-image: url(../images/FFF-product-wall.jpg);
+    background-size: cover;
 }
