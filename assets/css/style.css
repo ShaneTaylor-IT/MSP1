@@ -1,10 +1,10 @@
-/* Fonts import */
-
+/* Google Fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Paprika&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* CSS Variables */
 :root {
-    --primary-font: ;
-    --secondary-font: ;
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Paprika', sans-serif;
     --primary-color: #a8d49f; /* Light sage Green */;
     --secondary-color: #3e6b47; /* Dark Green */;
     --primary-highlight-color: #53adc8; /* Light Blue */;
@@ -15,7 +15,16 @@
 /* Global styles */
 
 body {
-    padding-top: 40px;
+    font-family: var(--primary-font);
+    padding-top: 2rem;
+}
+
+.section {
+    padding-top:4rem; /* prevents navbar overlap */
+}
+
+h1, h2, h3 {
+    font-family: var(--secondary-font);
 }
 
 .button-color {
@@ -33,6 +42,11 @@ body {
 .section-background-color {
     background-color: var(--background-color);
 }
+
+#navbar, #contact {
+    background-color:#a8d49f ;
+}
+
 /* Navbar styling */
 #navbar .logo {
     height: 55px;
@@ -40,10 +54,15 @@ body {
     border-radius: 50%;
 }
 
-/* Temp navbar styling, remove later */
-#navbar, #contact {
-    background-color:#a8d49f ;
+#navbar a {
+    font-weight: 500;
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s ease;
+}
 
+#navbar a:hover {
+    color: var(--background-color);
 }
 
 /* Header styling */
@@ -63,17 +82,21 @@ body {
 
 
 
-/* Offerings styling */
+/* Services styling */
 
-.offering-image {
+.services-image {
     height: 255px;
     object-fit: cover;
 }
 
-#offerings .card {
+#services .card {
     margin-bottom: 1.5rem;;
 }
 
+/* Testimonials styling */
+#carouselExampleAutoplaying {
+    background-color: var(--primary-color);
+}
 
 
 /* Footer | Contact styling */
@@ -84,7 +107,12 @@ body {
 
 #contact .socialmedialinks i {
     font-size: 1.8rem;
-    color: var(--secondary-color)
+    color: var(--secondary-color);
+    padding-bottom: 1rem;
+}
+
+#contact .socialmedialinks a:hover i {
+    color: var(--background-color);
 }
 
 
