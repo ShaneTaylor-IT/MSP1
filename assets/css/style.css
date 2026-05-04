@@ -78,10 +78,6 @@ h1, h2, h3 {
     color: var(--background-color);
 }
 
-/* About styling */
-
-
-
 /* Services styling */
 
 .services-image {
@@ -90,12 +86,17 @@ h1, h2, h3 {
 }
 
 #services .card {
-    margin-bottom: 1.5rem;;
+    margin-bottom: 1.5rem;
+}
+
+#services .card-body {
+    height: 230px;
 }
 
 /* Testimonials styling */
 #carouselExampleAutoplaying {
     background-color: var(--primary-color);
+    padding: 2rem;
 }
 
 
@@ -118,3 +119,9 @@ h1, h2, h3 {
 
 
 /* Media queries */
+/* Small devices 576px */
+@media (max-width: 576px) {
+    .carousel-inner {
+    min-height: 340px; /* prevents the services section from jumping up and down as the carousel changes slides */
+}
+}
