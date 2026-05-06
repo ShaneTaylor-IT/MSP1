@@ -21,7 +21,7 @@ body {
 }
 
 .section {
-    padding-top:4rem; /* prevents navbar overlap */
+    padding-top: 4rem !important; /* prevents navbar overlap */
 }
 
 h1, h2, h3 {
@@ -125,4 +125,7 @@ h1, h2, h3 {
     .carousel-inner {
     min-height: 340px; /* prevents the services section from jumping up and down as the carousel changes slides */
 }
+    .section {
+        padding-top: 4rem !important;
+    }
 }
