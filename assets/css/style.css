@@ -15,17 +15,25 @@
 /* Global styles */
 
 body {
-    font-family: var(--primary-font);
-    padding-top: 2rem;
-    
+    font-family: var(--primary-font) !important;
+    padding-top: 2rem; 
+}
+
+main {
+    font-family: var(--primary-font) !important;
 }
 
 .section {
     padding-top: 4rem !important; /* prevents navbar overlap */
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4, h5 {
     font-family: var(--secondary-font);
+}
+
+button {
+    width: 10rem;
+    font-family: var(--primary-font);
 }
 
 .button-color {
@@ -40,12 +48,18 @@ h1, h2, h3 {
     color: var(--background-color);
 }
 
+.nav-pills .nav-link.active {  /* Overrides the default active pill styling */
+    border: 2px solid var(--primary-color);
+    background-color: var(--primary-color);
+    color: black;
+} 
+
 .section-background-color {
     background-color: var(--background-color);
 }
 
 #navbar, #contact {
-    background-color:#a8d49f ;
+    background-color: var(--primary-color);
 }
 
 /* Navbar styling */

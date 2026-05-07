@@ -66,8 +66,96 @@
         </div>
     </nav>
 
-
     <main>
+        <!-- Menu section -->
+        <section id="menu-section" class="container py-5 section-background-color section flex-fill">
+            <div class="row py-5 justify-content-center">
+                <div class="col-12 text-center">
+                    <h1 class="display-4">Our Menu</h1>
+                    <p class="lead">Discover our delicious range of fresh food, made with love and quality ingredients.
+                    </p>
+                </div>
+            </div>
+            <ul class="nav nav-pills mb-3 justify-content-center justify-content-evenly" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active button-color" id="cafe-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-cafe" type="button" role="tab" aria-controls="pills-cafe"
+                        aria-selected="true">Cafe</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link button-color" id="deli-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-deli" type="button" role="tab" aria-controls="pills-deli"
+                        aria-selected="false">Deli</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link button-color" id="bakery-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-bakery" type="button" role="tab" aria-controls="pills-bakery"
+                        aria-selected="false">Bakery</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link button-color" id="butchers-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-butchers" type="button" role="tab" aria-controls="pills-butchers"
+                        aria-selected="false">Butchers</button>
+                </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-cafe" role="tabpanel" aria-labelledby="cafe-tab"
+                    tabindex="0">
+                    <div class="row justify-content-center">
+                        <div class="col-12">
+                            <div class="mb-5">
+                                <h3 class="display-6 text-center">Cafe</h3>
+                                <p class="lead text-center">Our cafe menu is perfect for a quick bite or a relaxing break with a delicious treat and a refreshing drink.
+                                </p>
+                                <div class="d-flex justify-content-around">
+                                    <span><strong>Coffee</strong> small, medium, large</span>
+                                    <span>£1.50, £2.00, £2.50</span>
+                                </div>    
+                            </div>
+                        </div>
+                </div>
+                <div class="tab-pane fade" id="pills-deli" role="tabpanel" aria-labelledby="deli-tab" tabindex="0">...
+                </div>
+                <div class="tab-pane fade" id="pills-bakery" role="tabpanel" aria-labelledby="bakery-tab" tabindex="0">
+                    ...</div>
+                <div class="tab-pane fade" id="pills-butchers" role="tabpanel" aria-labelledby="butchers-tab"
+                    tabindex="0">...</div>
+            </div>
+        </section>
+        <!-- Specials section -->
+        <section id="specials" class="container py-5 section flex-fill section-background-color">
+            <div class="row justify-content-center">
+                <div class="col-12 text-center">
+                    <h2 class="display-5">Specials</h2>
+                    <p class="lead">Check out our new Sunday roast dinners, available for delivery and collection every
+                        Sunday!</p>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Small dinner</h5>
+                        <p class="card-text">This dinner is the ideal size for children to enjoy. Comes with Yorkshire pudding, meat of your choosing, vegetables, mash and roast potatoes and a side pot of gravy.</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Medium dinner</h5>
+                        <p class="card-text">This dinner is ideal size for filling meal. Comes with 2 Yorkshire pudding, healthy helpings of meat of your choosing, vegetables, mash and roast potatoes, stuffing and 2 side pots of gravy.</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Large dinner</h5>
+                                <p class="card-text">This dinner is perfect for sharing or if you want to challenge yourself. Comes with 4 Yorkshire pudding, generous portion of meat of your choosing, vegetables, mash and roast potatoes, stuffing, pigs in blankets and 2 large pots of gravy.</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Extra Large dinner</h5>
+                        <p class="card-text">This dinner is beast of a dinner ideal for those whoes appetite is not easily satisfied. Very generous portion of meat of your choosing, vegetables, mash and roast potatoes, stuffing, pigs in blankets and 3 large pots of gravy. All served in a giant Yorkshire pudding.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <!-- Footer section -->
@@ -134,6 +222,11 @@
                                 </tr>
                             </tbody>
                         </table>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <p>&copy; 2026 Fullys Fresh Food. All rights reserved.</p>
+                        </div>
                     </div>
                 </div>
             </div>
