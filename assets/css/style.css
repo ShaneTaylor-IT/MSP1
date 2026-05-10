@@ -19,15 +19,11 @@ body {
     padding-top: 2rem; 
 }
 
-main {
-    font-family: var(--primary-font) !important;
-}
-
 .section {
     padding-top: 4rem !important; /* prevents navbar overlap */
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, h6 {
     font-family: var(--secondary-font);
 }
 
@@ -86,7 +82,6 @@ button {
     background-size: cover;
     background-position: center;
     padding-top: 4rem;
-
 }
 
 #header .header-text {
@@ -114,7 +109,6 @@ button {
     padding: 2rem;
 }
 
-
 /* Footer | Contact styling */
 
 #contact .table * {
@@ -131,7 +125,16 @@ button {
     color: var(--background-color);
 }
 
+/* Menu styling */
+#menu-content {
+    background-image: url(../images/Sandwich-to-eat-in.jpg);
+    background-size: cover;
+    background-position: center;
+} 
 
+#menu-content .header-text {
+    color: var(--background-color);
+}
 
 /* Media queries */
 /* Small devices 576px */

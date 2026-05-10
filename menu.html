@@ -69,14 +69,19 @@
     <main>
         <!-- Menu section -->
         <section id="menu-section" class="container py-5 section-background-color section flex-fill">
-            <div class="row py-5 justify-content-center">
-                <div class="col-12 text-center">
+            <div id="menu-content" class="row py-5 justify-content-center">
+                <div class="col-12 text-center header-text">
                     <h1 class="display-4">Our Menu</h1>
                     <p class="lead">Discover our delicious range of fresh food, made with love and quality ingredients.
+                    </p><br>
+                    <p><strong>Allergies:</strong> Please inform your server of any allergies or dietary restrictions.
+                        We take allergies seriously and will do our best to accommodate your needs. However, please be
+                        aware that our kitchen handles a variety of ingredients, and we cannot guarantee the complete
+                        absence of allergens in our dishes.</p>
                     </p>
                 </div>
             </div>
-            <ul class="nav nav-pills mb-3 justify-content-center justify-content-evenly" id="pills-tab" role="tablist">
+            <ul class="nav nav-pills py-3 justify-content-center justify-content-evenly" id="pills-tab" role="tablist">
                 <li class="nav-item" role="presentation">
                     <button class="nav-link active button-color" id="cafe-tab" data-bs-toggle="pill"
                         data-bs-target="#pills-cafe" type="button" role="tab" aria-controls="pills-cafe"
@@ -103,23 +108,269 @@
                     tabindex="0">
                     <div class="row justify-content-center">
                         <div class="col-12">
-                            <div class="mb-5">
-                                <h3 class="display-6 text-center">Cafe</h3>
-                                <p class="lead text-center">Our cafe menu is perfect for a quick bite or a relaxing break with a delicious treat and a refreshing drink.
-                                </p>
-                                <div class="d-flex justify-content-around">
-                                    <span><strong>Coffee</strong> small, medium, large</span>
-                                    <span>£1.50, £2.00, £2.50</span>
-                                </div>    
+                            <h3 class="display-6 text-center pt-3">Cafe</h3>
+                            <p class="lead text-center">Our cafe menu is perfect for a quick bite or a relaxing break
+                                with a delicious treat and a refreshing drink.
+                            </p>
+                        </div>
+                        <div class="col-12 col-md-6 col-xl-3">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title">Hot Drinks</h5>
+                                    <p class="card-text">All can be ordered in small, medium, or large. Available to
+                                        drink in or take away.</p>
+                                    <ul>
+                                        <li>Americano</li>
+                                        <li>Cappuccino</li>
+                                        <li>Latte</li>
+                                        <li>Mocha</li>
+                                        <li>Hot Chocolate</li>
+                                        <li>Tea</li>
+                                        <li>Green Tea</li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
+                        <div class="col-12 col-md-6 col-xl-3">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title">Cold Drinks</h5>
+                                    <p class="card-text">A variety of cold drinks in cans and bottles. You can also
+                                        enjoy a refreshing <em>Slushie</em> in either small, medium or large.</p>
+                                    <ul>
+                                        <li>Coke</li>
+                                        <li>Diet Coke</li>
+                                        <li>Pepsi</li>
+                                        <li>Fanta</li>
+                                        <li>Diet Fanta</li>
+                                        <li>Irn Bru</li>
+                                        <li>Tango</li>
+                                        <li>7-Up</li>
+                                        <li>Sprite</li>
+                                        <li>Dr Pepper</li>
+                                        <li>Monster (various flavours)</li>
+                                        <li>Slushies (various flavours)</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-xl-3">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title">Cold foods</h5>
+                                    <p class="card-text">Choose from our deli selection and order a pre-made sandwich or
+                                        customise your own with fresh bread and ingredients. Combine these into meal
+                                        deals to enjoy whilst staying in our comfortable indoor or outdoor area or take
+                                        them to enjoy on the move. Choose from our bakery selection of freshly baked
+                                        pies and treats.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-xl-3">
+                            <div class="card h-100  ">
+                                <div class="card-body">
+                                    <h5 class="card-title">Hot foods</h5>
+                                    <p class="card-text">Bacon sandwich
+                                        Sausage sandwich
+                                        Egg sandwich
+                                        Mix and match Bacon, Sausage and Egg sandwich
+
+                                        All-Day Breakfast
+                                        Includes bacon, sausage, egg, beans, black pudding, tomatoes, mushrooms, and
+                                        toast or fried bread. Can be ordered in small, medium, or large.
+                                        Pie and Chips
+                                        Choose from our selection of pies, served with thick-cut chips. Can come with
+                                        gravy, mushy peas, or both.
+                                        Burgers
+                                        Available in chicken or beef and come in a variety of sizes, served with chips
+                                        and onion rings. Extra toppings can include cheese and bacon.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="tab-pane fade" id="pills-deli" role="tabpanel" aria-labelledby="deli-tab" tabindex="0">...
+                <div class="tab-pane fade" id="pills-deli" role="tabpanel" aria-labelledby="deli-tab" tabindex="0">
+                    <div class="row justify-content-center">
+                        <div class="col-12">
+                            <h3 class="display-6 text-center pt-3">Deli</h3>
+                            <p class="lead text-center">Our Deli menu is perfect for a quick bite or a relaxing break
+                                with a delicious treat and a refreshing drink.</p>
+                            </p>
+                        </div>
+                        <div class="col-12 col-md-6 col-xl-3">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title">Pre prepared sandwiches</h5>
+                                    <p class="card-text">All sandwiches are prepared each morning using our fresh
+                                        ingredients.</p>
+                                    <ul>
+                                        <li>Ham and cheese</li>
+                                        <li>Chicken and bacon</li>
+                                        <li>Tuna mayo</li>
+                                        <li>Egg mayo</li>
+                                        <li>Cheese salad</li>
+                                        <li>Roast beef and onion</li>
+                                        <li>Chicken salad</li>
+                                        <li>BLT</li>
+                                        <li>Prawn mayo</li>
+                                        <li>Coronation chicken</li>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-xl-3">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title">Order Your Sandwich and Customise the Ingredients</h5>
+                                    <p class="card-text">All sandwich fillings are on display in our refrigerated glass
+                                        display counter. Alongside this is our salad counter. Choose from our selection
+                                        of freshly baked bread and fillings to make the perfect satisfying sandwich.
+                                        Prices vary depending on the ingredients chosen.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-xl-3">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title">Salad Boxes</h5>
+                                    <p class="card-text">Want a meal that's healthy and delicious? Our salad boxes are
+                                        the perfect choice, packed with fresh ingredients and dressed to perfection. You
+                                        can choose from our selection of prepared salads or build your own. Sizes are
+                                        available for all appetites.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-xl-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Meal Deals</h5>
+                                    <p class="card-text">Most of our sandwiches can be combined with a drink and a snack
+                                        to make a meal deal. Perfect for a quick and satisfying lunch on the go or to
+                                        enjoy in our comfortable seating area. Prices vary depending on the sandwich and
+                                        drink chosen but are always great value for the quality of food and drink you
+                                        receive.
+                                        Check out our cafe menu for the drinks you can choose from to go with your meal
+                                        deal. Snacks include crisps, chocolate bars, and a selection of our baked
+                                        treats.</p>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="tab-pane fade" id="pills-bakery" role="tabpanel" aria-labelledby="bakery-tab" tabindex="0">
-                    ...</div>
+                    <div class="row justify-content-center">
+                        <div class="col-12">
+                            <h3 class="display-6 text-center pt-3">Bakery</h3>
+                            <p class="lead text-center">Our Bakery selection is sure to meet your needs, whether you're
+                                looking for a hearty loaf of bread, a delicious pie or a savoury treat to enjoy with
+                                your coffee.</p>
+                            </p>
+                        </div>
+                        <div class="col-12 col-md-6 col-xl-3">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title">Freshly Baked Bread</h5>
+                                    <p class="card-text">Our freshly baked bread is made daily using traditional methods
+                                        and the finest ingredients. Available in a variety of types, including
+                                        sourdough, wholemeal, and ciabatta. Loaves are available in various sizes.
+                                        We also offer a selection of rolls. We have a wide range of rolls that are also
+                                        used for all our sandwiches.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-xl-3">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title">Delicious Pies and Treats</h5>
+                                    <p class="card-text">Our selection of pies is perfect for any occasion. From classic
+                                        favourites to seasonal specials, we have a pie for every taste. Made with the
+                                        finest ingredients and baked to perfection.
+                                        We also offer a wide range of treats that pair perfectly with our meal deals or
+                                        can be enjoyed as a snack with a hot drink. Some of the treats include our
+                                        speciality Scotch eggs, parmo pies, and stuffed sausage rolls.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-xl-3">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title">Cakes and Cookies</h5>
+                                    <p class="card-text">Our selection of cakes and cookies is perfect for any occasion.
+                                        From full family cakes to individual cookies, we have something for every taste.
+                                        Made with the finest ingredients and baked to perfection.
+                                        Do you have a sweet tooth? Check out our delicious selection!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-xl-3">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title">Special Orders</h5>
+                                    <p class="card-text">Need something specific? Our team can create custom orders to
+                                        meet your unique requirements. We can work with you to design the perfect item
+                                        for your needs.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="tab-pane fade" id="pills-butchers" role="tabpanel" aria-labelledby="butchers-tab"
-                    tabindex="0">...</div>
+                    tabindex="0">
+                    <div class="row justify-content-center">
+                        <div class="col-12">
+                            <h3 class="display-6 text-center pt-3">Butchers</h3>
+                            <p class="lead text-center">Our selection of fresh meats and poultry are always fresh and of
+                                the highest quality. We have a wide variety of cuts available, as well as the option to
+                                have your meat cut to order.</p>
+                            </p>
+                        </div>
+                        <div class="col-12 col-md-4 col-xl-4">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fresh Meats</h5>
+                                    <p class="card-text">All meats are fresh and locally sourced to ensure the highest
+                                        quality. Clearly displayed in our separate refrigerated counter. Order to your
+                                        preference or choose from some of our select cuts that have been pre-prepared.
+                                        Also available are pre-packed products including sausages, bacon, minced meat
+                                        (available in beef, lamb, and chicken), pork chops, ribs, wings, thighs,
+                                        kidneys, and many more.
+                                        Fancy something off menu? Speak to us and we can see if our suppliers are able
+                                        to accommodate your requests.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 col-xl-4">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title">Meal Packs</h5>
+                                    <p class="card-text">Fancy a quicker teatime at home? Some of our meal packs have
+                                        been prepared and seasoned, ready to be cooked at any time.
+                                        All freshly prepared by our head chef, these packs include his unique take on
+                                        parmos, available in chicken and pork with various toppings. We also offer
+                                        homemade, seasoned, chunky chicken bites.
+                                        Our stew packs come with a generous serving of meat (available in chicken, beef,
+                                        and lamb), as well as vegetables to give you a warm, hearty, and fulfilling
+                                        meal.
+                                        Our BBQ packs come in varying sizes to cater for every family size or gathering.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 col-xl-4">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title">Cooked Meats</h5>
+                                    <p class="card-text">We cook a selection of our products to be used in our various
+                                        menu items, including sandwiches, pies, dinners, and other dishes on our menu.
+                                        We also have a selection ready to cut to order, freshly cooked and ready to eat.
+                                        Do you have a meal planned but lack the signature centrepiece for your main
+                                        course? Come in and chat with us — we can prepare and cook to your needs, ready
+                                        for collection when you need it.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <!-- Specials section -->
@@ -128,30 +379,53 @@
                 <div class="col-12 text-center">
                     <h2 class="display-5">Specials</h2>
                     <p class="lead">Check out our new Sunday roast dinners, available for delivery and collection every
-                        Sunday!</p>
+                        Sunday!</p><br>
+                    <p>We also provide some vegetarian options, although these may be limited due to popularity. Some of
+                        our options include cauliflower steaks, Quorn chicken fillets, and more. There is also a
+                        separate gravy prepared as a vegetarian alternative. Please specify which option you would like
+                        when placing your order.</p>
                 </div>
-                <div class="card" style="width: 18rem;">
-                    <div class="card-body">
-                        <h5 class="card-title">Small dinner</h5>
-                        <p class="card-text">This dinner is the ideal size for children to enjoy. Comes with Yorkshire pudding, meat of your choosing, vegetables, mash and roast potatoes and a side pot of gravy.</p>
+                <div class="col-12 col-md-6 col-xl-3">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Small Dinner</h5>
+                            <p class="card-text">This dinner is the ideal size for children to enjoy. Comes with a
+                                Yorkshire pudding, meat of your choosing, vegetables, mash and roast potatoes, and a
+                                side pot of gravy.
+                            </p>
+                        </div>
                     </div>
                 </div>
-                <div class="card" style="width: 18rem;">
-                    <div class="card-body">
-                        <h5 class="card-title">Medium dinner</h5>
-                        <p class="card-text">This dinner is ideal size for filling meal. Comes with 2 Yorkshire pudding, healthy helpings of meat of your choosing, vegetables, mash and roast potatoes, stuffing and 2 side pots of gravy.</p>
+                <div class="col-12 col-md-6 col-xl-3">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Medium Dinner</h5>
+                            <p class="card-text">This dinner is the ideal size for a filling meal. Comes with 2
+                                Yorkshire puddings, healthy helpings of meat of your choosing, vegetables, mash and
+                                roast potatoes, stuffing, and 2 side pots of gravy.</p>
+                        </div>
                     </div>
                 </div>
-                <div class="card" style="width: 18rem;">
-                    <div class="card-body">
-                        <h5 class="card-title">Large dinner</h5>
-                                <p class="card-text">This dinner is perfect for sharing or if you want to challenge yourself. Comes with 4 Yorkshire pudding, generous portion of meat of your choosing, vegetables, mash and roast potatoes, stuffing, pigs in blankets and 2 large pots of gravy.</p>
+                <div class="col-12 col-md-6 col-xl-3">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Large Dinner</h5>
+                            <p class="card-text">This dinner is perfect for sharing or if you want to challenge
+                                yourself. Comes with 4 Yorkshire puddings, a generous portion of meat of your choosing,
+                                vegetables, mash and roast potatoes, stuffing, pigs in blankets, and 2 large pots of
+                                gravy.</p>
+                        </div>
                     </div>
                 </div>
-                <div class="card" style="width: 18rem;">
-                    <div class="card-body">
-                        <h5 class="card-title">Extra Large dinner</h5>
-                        <p class="card-text">This dinner is beast of a dinner ideal for those whoes appetite is not easily satisfied. Very generous portion of meat of your choosing, vegetables, mash and roast potatoes, stuffing, pigs in blankets and 3 large pots of gravy. All served in a giant Yorkshire pudding.</p>
+                <div class="col-12 col-md-6 col-xl-3">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Extra Large Dinner</h5>
+                            <p class="card-text">This dinner is a beast of a meal, ideal for those whose appetite is not
+                                easily satisfied. Includes a very generous portion of meat of your choosing, vegetables,
+                                mash and roast potatoes, stuffing, pigs in blankets, and 3 large pots of gravy, all
+                                served in a giant Yorkshire pudding.</p>
+                        </div>
                     </div>
                 </div>
             </div>
