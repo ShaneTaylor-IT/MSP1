@@ -137,7 +137,13 @@ button {
 }
 
 #pills-tabContent .card {
+    height:450px;
     margin-bottom: 1.5rem;
+}
+
+#specials .card {
+    height:270px;
+    margin-bottom:1.5rem;
 }
 
 /* Media queries */
