@@ -155,14 +155,13 @@ The design for this website is a mobile first approach, modern and easily access
 
 ##### Lighthouse Testing:
 
-### Challenges & Learning
+### Issues and bugs
 ------
 * **Testimonies** - One challenge I came across was how to create the testimonies, after some searching on google I found it was very simple to use bootstrap card layout and mix it with the carousel.
    * Also to add more detail to the testimonies was to add a star rating which was using the star icon from Font Awesome. ```HTML - <i class="fa-solid fa-star"></i>```
 * **Menu Nav Pills** - A challenge when creating the menu was styling the buttons on the pill menu layout, took quite some time to research and figure out which bootstrap classes where styling the color for the active pill. With the help of dev tools I was able to eventually identify the classes involed and then correctly style them.
    * Correctly identified with the use of dev tools and [bootstrap documentation](https://getbootstrap.com/docs/5.3/components/navs-tabs/#working-with-flex-utilities)
-
-
+* **Testimonails carousel sizing** - A issue I came acroos was with the testimonials as the carousel would cycle through the testimonies there would be a page layout issue on smaller screens where some testimonials where larger in text size cause the rest of the page to move down to accomidate the size and then revert back with smaller testimonials. To get around this I added a Media queries in the CSS style to give all testimonials a fixed height.
 
 ### Deployment
 ------
